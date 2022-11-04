@@ -7,7 +7,7 @@ it('can test', function () {
         'value' => [
             'available_colors' => ['red', 'green', 'blue'],
             'default' => 'red',
-            'selected' => 'blue',
+            'selected' => 'red',
         ],
     ];
     $option = $product->addOption($optionData['name'], $optionData['value']);
