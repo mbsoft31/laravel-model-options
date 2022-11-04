@@ -30,7 +30,7 @@ class TestCase extends Orchestra
         config()->set('database.connections.sqlite', [
             'driver' => 'sqlite',
             'database' => ':memory:',
-            'prefix' => ''
+            'prefix' => '',
         ]);
 
         $migration = include __DIR__.'/database/migrations/2022_10_27_144426_create_products_table.php';
@@ -38,6 +38,5 @@ class TestCase extends Orchestra
 
         $migration = include __DIR__.'/../database/migrations/create_model_options_table.php.stub';
         $migration->up();
-
     }
 }

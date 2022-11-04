@@ -18,8 +18,8 @@ class LaravelModelOptionsServiceProvider extends PackageServiceProvider
         $package
             ->name('laravel-model-options')
             ->hasMigration('create_model_options_table');
-            //->hasConfigFile()
-            //->hasViews()
-            //->hasCommand(LaravelModelOptionsCommand::class);
+        //->hasConfigFile()
+        //->hasViews()
+        //->hasCommand(LaravelModelOptionsCommand::class);
     }
 }

@@ -12,11 +12,10 @@ class OptionFactory extends Factory
     public function definition()
     {
         return [
-            "name" => $this->faker->word,
-            "value" => $this->faker->randomNumber(2),
-            "optionable_type" => $this->faker->word,
-            "optionable_id" => $this->faker->randomNumber(2),
+            'name' => $this->faker->word,
+            'value' => $this->faker->randomNumber(2),
+            'optionable_type' => $this->faker->word,
+            'optionable_id' => $this->faker->randomNumber(2),
         ];
     }
 }
-

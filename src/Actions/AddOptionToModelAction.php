@@ -9,10 +9,10 @@ class AddOptionToModelAction
 {
     public function addOption(Model $model, string $name, mixed $value): Model
     {
-        /** @var Product $model **/
+        /** @var Product $model * */
         return $model->options()->create([
-            "name" => $name,
-            "value" => $value,
+            'name' => $name,
+            'value' => $value,
         ]);
     }
 }

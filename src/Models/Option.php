@@ -12,7 +12,7 @@ class Option extends Model
     protected $guarded = [];
 
     protected $casts = [
-        "value" => "json"
+        'value' => 'json',
     ];
 
     public function optionable()

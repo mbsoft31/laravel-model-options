@@ -8,6 +8,7 @@ use Mbsoft31\LaravelModelOptions\Tests\Models\Product;
 class ProductFactory extends Factory
 {
     protected $model = Product::class;
+
     /**
      * Define the model's default state.
      *
@@ -16,7 +17,7 @@ class ProductFactory extends Factory
     public function definition()
     {
         return [
-            "name" => $this->faker->sentence()
+            'name' => $this->faker->sentence(),
         ];
     }
 }

@@ -3,11 +3,11 @@
 it('can test', function () {
     $product = \Mbsoft31\LaravelModelOptions\Tests\Models\Product::factory()->create();
     $optionData = [
-        "name" => "color",
-        "value" => [
-            "available_colors" => ["red", "green", "blue"],
-            "default" => "red",
-            "selected" => "blue"
+        'name' => 'color',
+        'value' => [
+            'available_colors' => ['red', 'green', 'blue'],
+            'default' => 'red',
+            'selected' => 'blue',
         ],
     ];
     $option = $product->addOption($optionData['name'], $optionData['value']);
