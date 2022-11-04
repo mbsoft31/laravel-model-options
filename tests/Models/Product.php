@@ -4,7 +4,7 @@ namespace Mbsoft31\LaravelModelOptions\Tests\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Mbsoft31\LaravelModelOptions\Tests\Database\Factories\ProductFactory;
+use Mbsoft31\LaravelModelOptions\Tests\database\factories\ProductFactory;
 use Mbsoft31\LaravelModelOptions\Traits\HasOptions;
 
 /**

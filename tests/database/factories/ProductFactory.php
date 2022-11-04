@@ -1,6 +1,6 @@
 <?php
 
-namespace Mbsoft31\LaravelModelOptions\Tests\Database\Factories;
+namespace Mbsoft31\LaravelModelOptions\Tests\database\factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Mbsoft31\LaravelModelOptions\Tests\Models\Product;
