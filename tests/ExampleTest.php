@@ -11,6 +11,5 @@ it('can test', function () {
         ],
     ];
     $option = $product->addOption($optionData['name'], $optionData['value']);
-    dd($option->toArray());
     expect(true)->toBeTrue();
 });
