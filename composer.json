@@ -35,8 +35,7 @@
     "autoload": {
         "psr-4": {
             "Mbsoft31\\LaravelModelOptions\\": "src",
-            "Mbsoft31\\LaravelModelOptions\\Database\\Factories\\": "database/factories",
-            "Mbsoft31\\LaravelModelOptions\\Tests\\": "tests"
+            "Mbsoft31\\LaravelModelOptions\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
