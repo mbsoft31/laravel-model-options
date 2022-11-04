@@ -26,11 +26,18 @@ class TestCase extends Orchestra
 
     public function getEnvironmentSetUp($app)
     {
-        config()->set('database.default', 'testing');
+        config()->set('database.default', 'sqlite');
+        config()->set('database.connections.sqlite', [
+            'driver' => 'sqlite',
+            'database' => ':memory:',
+            'prefix' => ''
+        ]);
 
-        /*
-        $migration = include __DIR__.'/../database/migrations/create_laravel-model-options_table.php.stub';
+        $migration = include __DIR__.'/database/migrations/2022_10_27_144426_create_products_table.php';
         $migration->up();
-        */
+
+        $migration = include __DIR__.'/../database/migrations/create_model_options_table.php.stub';
+        $migration->up();
+
     }
 }
