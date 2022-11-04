@@ -3,8 +3,8 @@
 namespace Mbsoft31\LaravelModelOptions\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use Mbsoft31\LaravelModelOptions\LaravelModelOptionsServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {

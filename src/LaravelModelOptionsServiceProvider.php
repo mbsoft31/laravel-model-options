@@ -2,9 +2,9 @@
 
 namespace Mbsoft31\LaravelModelOptions;
 
+use Mbsoft31\LaravelModelOptions\Commands\LaravelModelOptionsCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Mbsoft31\LaravelModelOptions\Commands\LaravelModelOptionsCommand;
 
 class LaravelModelOptionsServiceProvider extends PackageServiceProvider
 {
